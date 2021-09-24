@@ -1,16 +1,25 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-image: url("https://criticalhits.com.br/wp-content/uploads/2020/09/animes-japao-shonen-jump.jpeg");
   background-color: #000000;
-  background-size: cover;
-  background-position: center top;
+  background-size: 100%;
+  background-position: contain;
   background-repeat: no-repeat;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 20px;
+}
+
+.caixa {
+  background: #1c1c1c;
+  align-self: center;
+  width: 200px;
+  border-radius: 20px;
 }
 
 .page-title {
@@ -46,6 +55,7 @@ body {
 .form-wrapper input {
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
   padding: 10px 15px;
 }
 
